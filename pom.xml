@@ -14,7 +14,7 @@
   <build>
     <plugins>
         <plugin>
-            <groupId>org.jfrog.buildinfo</groupId>
+           <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
         <version>3.6.3</version>
         <configuration>
