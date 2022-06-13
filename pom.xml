@@ -17,7 +17,7 @@
             <groupId>org.jfrog.buildinfo</groupId>
             <artifactId>artifactory-maven-plugin</artifactId>
             <configuration>
-              <source>1.6</source>
+              <source>6</source>
               <target>1.6</target>
            </configuration>
             <inherited>false</inherited>
