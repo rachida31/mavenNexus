@@ -22,23 +22,6 @@
             <target>1.8</target>
         </configuration>
             <inherited>false</inherited>
-            <executions>
-                <execution>
-                    <id>build-info</id>
-                    <goals>
-                        <goal>publish</goal>
-                    </goals>
-                    <configuration>
-                        <publisher>
-                            <contextUrl>http://localhost:8081/artifactory</contextUrl>
-                            <username>admin</username>
-                            <password>Racheletmoi2</password>
-                            <repoKey>libs-release-local</repoKey>
-                            <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
-                        </publisher>
-                    </configuration>
-                </execution>
-            </executions>
         </plugin>
     </plugins>
 </build>
